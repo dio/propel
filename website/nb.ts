@@ -715,5 +715,5 @@ function fmtDate(d: Date): string {
 
 // Trims whitespace.
 function normalizeCode(code: string): string {
-  return code.trim();
+  return code.trimRight();
 }
